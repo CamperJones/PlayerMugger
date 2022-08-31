@@ -1,2 +1,2 @@
-# PLayerMugger
+# PlayerMugger
 Minecraft plugin
