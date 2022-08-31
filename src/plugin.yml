@@ -1,0 +1,18 @@
+name: PlayerMugger
+author: CamperJones
+version: 1.0
+main: me.camper.PlayerMugger.PlayerMugger
+description: call Mugger and Bounty in players.
+api-version: 1.13
+depend: [Vault, LibsDisguises]
+
+commands:
+  callmugger:
+   usage: /<command>
+   description: contratar mugger para roubar player.
+   permissions:
+  mugger.nocooldown:
+   description: Nao precisa aguardar para chamar Mugger.
+   default: op   
+
+  
